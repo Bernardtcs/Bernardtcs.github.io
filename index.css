@@ -1,0 +1,32 @@
+article{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	background-image: url("large_leather.png");
+	}
+
+body{text-align:center;
+	}
+
+header h1{
+	font-size : 75px;
+	}
+
+img{
+	margin: 10px;
+	padding: 5px;
+	
+	}
+
+a{ 
+text-decoration: none;
+ }
+
+
+
+nav{ display: flex;
+	justify-content: flex-end; 
+	}
+
+span{margin-left:3px;
+	margin-right: 3px
+	}
+
