@@ -2,37 +2,66 @@
 <html>
 <head>
 	<title>Bernard Tan's handcrafted website</title>
+	
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="index.css">
+
+	<link rel="stylesheet" href="test.css">
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
 
-		
 </head>
 
 <article>
+
 <header>
 	<nav>
-		<span> About </span>
-		<span> Project </span>
-		<span> Contact </span>
+		<span><a href="#about">About</a></span>
+		<span><a href= "#project">Project</a></span>
+		<span><a href= "#contact">Contact</a></span>
 	</nav>
 </header>
 <body>
 	<header>
 		<h1> Bernard Tan </h1>
 
+		<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <img src="sculpture.jpg" style="width:40%">
+				  <div class="text">@Smithsonian National Air and Space Museum</div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <img src="tree.jpg" style="width:40%">
+				  <div class="text">@Knoxille, TN</div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <img src="church.jpg" style="width:40%">
+				  <div class="text">@National Mall</div>
+				</div>
+
+				<div class="mySlides fade">
+					<img src="flower.jpg" style="width:40%">
+					<div class="text">@MOMA</div>
+				</div>
+				
+		</div>
+
 	</header>
 	
 	<section>
-		<h1> About Me</h1>
+	
+		<h1 id= "about"> About Me</h1>
 
-			<p> Hi there, I am a fresh economics graduate and a blockchain enthusiast. </p>
+
+			<p> Hi there, I am Bernard, a fresh economics graduate and a blockchain enthusiast. </p>
 
 			<p>I firmly believe that passion and patience are equally essential for one’s success.</p>
 
-			</p>As part of my dissertation project I have gained experience of collecting and transforming raw data of 178 countries into useful information through statistical analysis. </p>
+			<p id= "project">As part of my dissertation project I have gained experience of collecting and transforming raw data of 178 countries into useful information through statistical analysis. </p>
 
 			<p>Here's my dissertation: 'Constructing the Bitcoin Market Potential index: A Principal Component Analysis Approach'.</p>
 
@@ -41,7 +70,7 @@
 			</div>
 
 
-			<p> A professional resume is provided here! </p>
+			<p> You can also check out my professional resume below! </p>
 
 			<div class="tooltip"><a href="resume.pdf"><img border="0" alt="Resume" src="resume.svg" width= "100" height ="100"></a>
 				<span class="tooltiptext">Click here for the resume.</span>
@@ -56,10 +85,6 @@
 		
 			<p> “Be focused. Be determined. Be hopeful. Be empowered.”Michelle Obama</p>
 
-		
-			
-
-			<!--This one nid change its email. -->
 
 			<a href="https://github.com/Bernardtcs/Bernardtcs.github.io"><img border="0" alt="Github" src="github.svg" width= "70" height ="70"> </a>
 
@@ -67,19 +92,23 @@
 
 			<a href= "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=bernardtcs1021@gmail.com&su=HI!&tf=1"><img border="0" alt="Email" src="email.svg" width="80" height="80">
 			</a>		
+	
 
+			<script src= "test.js"></script>
 
-	<!--nid add in links and documents-->
 	
 	</section>
-	
-	<footer>
-		<p> Made by Bernard Tan Chik Shyan</p>
+
+	<footer id="contact">
+		<p>Made by Bernard Tan @ 2019</p>
 	</footer>
 
 	
 
-	</body>
+</body>
 
 </article>	
-	</html>
+	</html>	
+	
+
+	
